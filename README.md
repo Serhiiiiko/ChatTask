@@ -276,6 +276,14 @@ When running via Aspire, the application exports:
 
 <img width="1833" height="550" alt="image" src="https://github.com/user-attachments/assets/7e4e568f-0bf5-4247-84fb-d6024283145c" />
 
+## AiEval Report
+<img width="988" height="646" alt="image" src="https://github.com/user-attachments/assets/48f84b68-278d-4492-bc07-b4ef4592ad90" />
+
+<img width="1482" height="782" alt="image" src="https://github.com/user-attachments/assets/b7870e3f-f532-49ef-8e5a-a70a4f37baab" />
+
+<img width="1458" height="940" alt="image" src="https://github.com/user-attachments/assets/f87d4570-4f83-4946-b8ca-154bf12fee1b" />
+
+
 
 ## License
 
