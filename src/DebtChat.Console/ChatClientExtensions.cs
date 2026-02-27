@@ -20,6 +20,7 @@ public static class ChatClientExtensions
             var options = sp.GetRequiredService<IOptions<LlmOptions>>().Value;
 
             var apiKey = Environment.GetEnvironmentVariable("ANTHROPIC_API_KEY")
+                ?? Environment.GetEnvironmentVariable("ANTHROPIC_API_KEY", EnvironmentVariableTarget.User)
                 ?? throw new InvalidOperationException(
                     "ANTHROPIC_API_KEY environment variable is not set. " +
                     "Set it with: [System.Environment]::SetEnvironmentVariable(\"ANTHROPIC_API_KEY\", \"your-key\", \"User\") " +
