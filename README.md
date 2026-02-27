@@ -104,6 +104,9 @@ You'll see a welcome banner. Type your questions at the `You:` prompt.
 | Breakdown | "What's the breakdown between public debt and intragovernmental holdings?" |
 | Multi-turn | Ask a question, then follow up: "How does that compare to last year?" |
 
+<img width="1351" height="724" alt="image" src="https://github.com/user-attachments/assets/038cf5c8-adf8-45ce-b58b-27f07951a25e" />
+
+
 ### Commands
 
 | Command | Action |
