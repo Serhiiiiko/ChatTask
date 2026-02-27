@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/DebtChat.AppHost/DebtChat.AppHost.csproj" />
+    <Project Path="src/DebtChat.ServiceDefaults/DebtChat.ServiceDefaults.csproj" />
+    <Project Path="src/DebtChat.Console/DebtChat.Console.csproj" />
+    <Project Path="src/DebtChat.Core/DebtChat.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/DebtChat.Tests.Unit/DebtChat.Tests.Unit.csproj" />
+    <Project Path="tests/DebtChat.Tests.AIQuality/DebtChat.Tests.AIQuality.csproj" />
+  </Folder>
+</Solution>

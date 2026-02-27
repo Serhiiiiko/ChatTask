@@ -1,0 +1,35 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+*.vs/
+.vscode/
+
+## IDE
+.idea/
+*.sln.DotSettings.user
+launchSettings.json
+
+## Build
+artifacts/
+publish/
+TestResults/
+
+## Secrets
+*.pfx
+appsettings.*.local.json
+
+## OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## Telemetry / Reports
+*.etl
+reports/
+
+## Claude
+.claude/
