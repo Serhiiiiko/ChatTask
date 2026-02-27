@@ -271,6 +271,7 @@ When running via Aspire, the application exports:
 - **Traces**: HTTP calls to Treasury API, LLM interactions, tool invocations
 - **Metrics**: HTTP client metrics, runtime metrics, custom DebtChat meters
 - **Structured Logs**: All operations with correlation IDs
+<img width="1104" height="536" alt="image" src="https://github.com/user-attachments/assets/20ab0e5b-0005-42b4-8699-b0bfee0a6a42" />
 
 ## License
 
