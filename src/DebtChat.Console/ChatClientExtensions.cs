@@ -19,7 +19,13 @@ public static class ChatClientExtensions
         {
             var options = sp.GetRequiredService<IOptions<LlmOptions>>().Value;
 
-            var client = new AnthropicClient();
+            var apiKey = Environment.GetEnvironmentVariable("ANTHROPIC_API_KEY")
+                ?? throw new InvalidOperationException(
+                    "ANTHROPIC_API_KEY environment variable is not set. " +
+                    "Set it with: [System.Environment]::SetEnvironmentVariable(\"ANTHROPIC_API_KEY\", \"your-key\", \"User\") " +
+                    "then restart your terminal.");
+
+            var client = new AnthropicClient { ApiKey = apiKey };
             return client.AsIChatClient(options.Model);
         })
         .UseFunctionInvocation()
