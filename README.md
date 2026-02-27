@@ -106,6 +106,7 @@ You'll see a welcome banner. Type your questions at the `You:` prompt.
 
 <img width="1351" height="724" alt="image" src="https://github.com/user-attachments/assets/038cf5c8-adf8-45ce-b58b-27f07951a25e" />
 
+<img width="1013" height="236" alt="image" src="https://github.com/user-attachments/assets/3a9fc318-fec4-4eec-8a11-136bcbf70098" />
 
 ### Commands
 
